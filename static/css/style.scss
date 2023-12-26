@@ -1,0 +1,419 @@
+:root {
+    --colorblue: #124c83;
+    --colorusqay: #ed6b0d;
+    --colorgrey: #e6ecec;
+    --backgrey2: #f9f9f9;
+}
+
+.btnPrice{
+        /* margin: auto; */
+        background-color: var(--colorblue);
+        padding: 8px 20px;
+        color: #fff;
+        border-radius: 15px;
+}
+
+
+.btnPrice:hover {
+    /* border: 1px solid #00abff; */
+    box-shadow: 3px 1px 12px 0px rgb(12 17 60 / 61%);
+    -moz-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+.positioncardprice{
+    position: relative;
+    top: -65px;
+}
+.titlecardprice{
+    // position: relative;
+    // top: -65px;
+    background-color: var(--colorusqay);
+    color: #fff !important;
+    padding: 15px;
+}
+.textProduct{
+        font-size: 18px;
+        font-weight: 500;
+}
+
+.titleProduct{
+    font-size: 5.5em;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-family: "Poppins", sans-serif;
+    color: var(--colorusqay);
+}
+.subTitleProduct{
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: "Poppins", sans-serif;
+    color: var(--colorusqay);
+}
+
+.circlelogos {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    /* border: 1px solid var(--colorblue); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 10px 15px; */
+    /* background-color: var(--backgrey2); */
+}
+
+.circlelogos img {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.v-expansion-panel-header {
+    justify-content: space-between;
+    color: var(--colorblue);
+    border-bottom: 2px solid var(--colorusqay);
+}
+
+.v-icon {
+    color: var(--colorusqay) !important;
+}
+
+.parrafopreguntasF {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    /* lighting-color: red; */
+    padding: 15px 0;
+}
+
+.cardtesti {
+    border-radius: 30px;
+    width: 370px;
+    -webkit-box-shadow: -1px 4px 12px 0px rgba(51, 49, 51, 1);
+    -moz-box-shadow: -1px 4px 12px 0px rgba(51, 49, 51, 1);
+    box-shadow: -1px 4px 12px 0px rgba(51, 49, 51, 1);
+    padding: 15px;
+}
+
+.cardtesti p {
+    line-height: 15px;
+}
+
+.cardtesti b {
+    color: var(--colorblue);
+}
+
+.cardtesti img {
+    border-radius: 50%;
+    border: 5px solid var(--colorblue);
+    position: relative;
+    top: -39px;
+    right: 34px;
+
+}
+
+.titlenumbercard {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--colorusqay);
+}
+
+.cardnosrecomiendan {
+    max-width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgb(51, 49, 51) -6px 11px 20px -7px;
+    padding: 15px 2px
+}
+
+.centerflexcol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerflexrow {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.circleRecom {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    /* border: 1px solid var(--colorblue); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 15px;
+    /* background-color: var(--backgrey2); */
+}
+
+.circleRecom p {
+    font-size: 12px;
+    line-height: unset;
+    color: #fff;
+    background-color: var(--colorblue);
+    margin-bottom: 15px;
+}
+
+.circleRecom img {
+    width: 50px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.circleElige {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid var(--colorblue);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 15px;
+    background-color: var(--backgrey2);
+}
+
+.circleElige p {
+    font-size: 10px;
+    line-height: unset;
+    padding-bottom: 5px;
+}
+
+.circleElige img {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.space_componet {
+    padding: 50px 0;
+}
+
+.cardsinfo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardindiv {
+    border-radius: 30px 30px 30px 0;
+    width: 250px;
+    -webkit-box-shadow: 13px 11px 8px -10px rgba(51, 49, 51, 1);
+    -moz-box-shadow: 13px 11px 8px -10px rgba(51, 49, 51, 1);
+    box-shadow: 13px 11px 8px -10px rgba(51, 49, 51, 1);
+    padding: 15px;
+}
+
+.cardindiv h3,
+p {
+    text-align: center;
+}
+
+.cardindiv h3 {
+    font-size: 25px;
+}
+
+.cardindiv img {
+    margin: auto;
+}
+
+/* .cardindiv {
+    display: flex;
+    flex-direction: column;
+} */
+
+.textjustifi {
+    text-align: justify;
+    /* width: 100% !important; */
+}
+
+.textpaises {
+    transform: skewX(35deg);
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--colorblue);
+    font-weight: 500;
+}
+
+.element3paises {
+    width: 60px;
+    height: 50px;
+    margin-left: -20px;
+    border-radius: 0 50% 50% 0;
+    background-color: #e9ebec;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* transform: skewX(-35deg); */
+    /* transform-origin: left; */
+}
+
+.element2paises {
+    width: 125px;
+    height: 50px;
+    /* margin-left: -25px; */
+    /* border-radius: 50%; */
+    background-color: #e9ebec;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    transform: skewX(-35deg);
+    /* transform-origin: left; */
+}
+
+.element1paises {
+    width: 85px;
+    height: 50px;
+    margin-left: -25px;
+    background-color: var(--colorblue);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transform: skewX(-35deg);
+    transform-origin: rigth;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--colorusqay) !important;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    /* Establece el radio para hacer las esquinas redondeadas */
+    transform: skewX(-25deg);
+    /* Aplica una inclinación (skew) en el eje X para formar un paralelogramo */
+    cursor: pointer;
+    animation: tiltAnimation2 1s infinite;
+    /* transform: skewX(-25deg); */
+}
+
+.btn.static {
+    background-color: var(--colorblue);
+    color: #ffffff;
+    transition: transform 0.3s ease;
+}
+
+.btn.animated-btn {
+    animation: tiltAnimation 5s infinite;
+}
+
+
+@keyframes tiltAnimation {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform: skewX(-25deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+        transform: skewX(-25deg);
+    }
+}
+
+@keyframes tiltAnimation2 {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform: skewX(-25deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+        transform: skewY(10deg);
+    }
+}
+
+.btn.static:hover {
+    transform: rotate(-5deg);
+}
+
+
+
+
+.titleGeneral {
+    text-align: center;
+    font-size: 7.5em;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--colorusqay);
+}
+
+.titlePais {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--colorblue);
+}
+
+.titletext {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--colorblue);
+}
+
+.bg7 {
+    background-image: url('../img/component/bg7.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg6 {
+    background-image: url('../img/component/bg6.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg5 {
+    background-image: url('../img/component/bg5.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg4 {
+    background-image: url('../img/component/bg4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg3 {
+    background-image: url('../img/component/bg3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg2 {
+    background-image: url('../img/component/bg2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg1 {
+    background-image: url('../img/component/bg1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img_prod {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background: #e6ecec;
+    border-radius: 20px;
+    width: 100%;
+}

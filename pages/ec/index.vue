@@ -39,6 +39,7 @@
                     <img style="width:40px;" src="@/assets/img/iconos/Recurso 2@3x.png" alt="Usqay">
                     <img style="width:40px;" src="@/assets/img/iconos/Recurso 1@3x.png" alt="Usqay">
                     <img style="width:40px;" src="@/assets/img/iconos/Recurso 3@3x.png" alt="Usqay">
+                    <img style="width:40px;" src="@/assets/img/iconos/Recurso 34@4x.png" alt="Usqay">
                     <img style="width:40px;" src="@/assets/img/iconos/Recurso 4@3x.png" alt="Usqay">
                 </div>
             </div>

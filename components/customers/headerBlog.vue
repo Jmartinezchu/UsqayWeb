@@ -67,6 +67,8 @@
                             alt="Usqay Ecuador">
                         <img v-if="this.code === 'co'" style="width:40px;" src="@/assets/img/iconos/Recurso 3@3x.png"
                             alt="Usqay Colombia">
+                        <img v-if="this.code === 'chl'" style="width:40px;" src="@/assets/img/iconos/Recurso 34@4x.png"
+                            alt="Usqay Perú">
                     </li>
                 </ul>
             </div>

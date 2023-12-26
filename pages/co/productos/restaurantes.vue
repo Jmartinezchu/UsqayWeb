@@ -98,33 +98,7 @@
                 <!-- <div class="bg7">
                     l
                 </div> -->
-                <div class="row pricing-tables container" style="margin:auto">
-                    <div v-for="plan in planes" :key="plan.nombre" class="col-lg-4 col-md-4 col-xs-12">
-                        <div class="pricing-table">
-                            <div class="pricing-details positioncardprice">
-                                <h3 class="text-center titlecardprice">Versión <b>{{ plan.nombre }}</b></h3>
-                                <h4 style="color: var(--colorblue);font-weight: 800;font-size: 30px;">{{ plan.precioAnual }}
-                                    <span style="font-size: 15px;">/año</span>
-                                </h4>
-                                <h6 style="color: var(--colorblue);font-weight: 800;">{{ plan.precioMensual }}<span
-                                        style="font-size: 12px;">/mes</span>
-                                </h6>
-                                <p>{{ plan.comprobantes }}</p>
-                                <ul>
-                                    <li v-for="modulo in plan.modulos" :key="modulo">
-                                        <img src="@/assets/img/product/0.png" style="width: 20px;" alt="Usqay check">
-                                        {{ modulo }}
-                                    </li>
-                                </ul>
-                                <div>
-                                    <button class="btnPrice" @click="solicitarDemo('Restaurantes', plan.nombre)">
-                                        Contáctanos
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <ColombiaPrices/>
                 <!-- End Row -->
             </div>
         </section>

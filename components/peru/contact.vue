@@ -91,6 +91,12 @@ export default {
                 facebook: 'https://www.facebook.com/profile.php?id=61550925360429&mibextid=hIlR13',
                 facturador: ''
             },
+            chl: {
+                whatsapp: '51943741512',
+                instagram: 'https://www.instagram.com/sistemausqay?igsh=MW1ianlwMXk2am11Ng==',
+                facebook: 'https://www.facebook.com/UsqayPeru?mibextid=hIlR13',
+                facturador: 'https://usqay.pse.pe/buscar'
+            },
         },
         nameRules: [
             v => !!v || 'Campo Requerido',

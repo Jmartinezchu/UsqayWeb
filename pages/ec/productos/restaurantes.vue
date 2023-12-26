@@ -98,33 +98,7 @@
                 <!-- <div class="bg7">
                     l
                 </div> -->
-                <div class="row pricing-tables container" style="margin:auto">
-                    <div v-for="plan in planes" :key="plan.nombre" class="col-lg-4 col-md-4 col-xs-12">
-                        <div class="pricing-table">
-                            <div class="pricing-details positioncardprice">
-                                <h3 class="text-center titlecardprice">Versión <b>{{ plan.nombre }}</b></h3>
-                                <h4 style="color: var(--colorblue);font-weight: 800;font-size: 30px;">{{ plan.precioAnual }}
-                                    <span style="font-size: 15px;">/año</span>
-                                </h4>
-                                <h6 style="color: var(--colorblue);font-weight: 800;">{{ plan.precioMensual }}<span
-                                        style="font-size: 12px;">/mes</span>
-                                </h6>
-                                <p>{{ plan.comprobantes }}</p>
-                                <ul>
-                                    <li v-for="modulo in plan.modulos" :key="modulo">
-                                        <img src="@/assets/img/product/0.png" style="width: 20px;" alt="Usqay check">
-                                        {{ modulo }}
-                                    </li>
-                                </ul>
-                                <div>
-                                    <button class="btnPrice" @click="solicitarDemo('Restaurantes', plan.nombre)">
-                                        Contáctanos
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <EcuadorPrices/>
                 <!-- End Row -->
             </div>
         </section>
@@ -138,85 +112,7 @@ export default {
     data() {
         return {
             numberusqay: 943741512,
-            planes: [
-                {
-                    "nombre": "Lite",
-                    "precioAnual": "s/ 1,290.00",
-                    "precioMensual": "s/ 129.00",
-                    "comprobantes": "Hasta 500 comprobantes al mes",
-                    "modulos": [
-                        "Módulo de ventas",
-                        "Registro de platos y productos",
-                        "Reporte de ventas",
-                        "Control de caja",
-                        "Usuarios",
-                        "Precuentas",
-                        "Boletas",
-                        "Tickets de venta",
-                        "Backup de respaldo",
-                        "Múltiples dispositivos",
-                        "Online y offline",
-                        "Facturas"
-                    ]
-                },
-                {
-                    "nombre": "Emprende",
-                    "precioAnual": "s/ 1,690.00",
-                    "precioMensual": "s/ 169.00",
-                    "comprobantes": "1000 comprobantes al mes",
-                    "modulos": [
-                        "Dashboard",
-                        "Módulo de ventas",
-                        "Registro de platos y productos",
-                        "Reporte de ventas",
-                        "Usuarios",
-                        "Control de caja",
-                        "Precuentas",
-                        "Tickets de venta",
-                        "Backup de respaldo",
-                        "Boletas",
-                        "Múltiples Dispositivos",
-                        "Online y offline",
-                        "Cloud (1 Usuario)",
-                        "Arma tu menú (entrada, fondo, postre)",
-                        "Almacén",
-                        "Inventario",
-                        "Kardex",
-                        "Facturas"
-                    ]
-                },
-                {
-                    "nombre": "Premium",
-                    "precioAnual": "s/ 2,490.00",
-                    "precioMensual": "s/ 249.00",
-                    "comprobantes": "Comprobantes ilimitados al mes",
-                    "modulos": [
-                        "Dashboard",
-                        "Módulo de ventas",
-                        "Registro de platos y productos",
-                        "Reporte de ventas",
-                        "Usuarios",
-                        "Control de caja",
-                        "Precuentas",
-                        "Tickets de venta",
-                        "Backup de respaldo",
-                        "Múltiples dispositivos",
-                        "Online y Offline",
-                        "Cloud (Múltiples usuarios)",
-                        "Boletas",
-                        "Arma tu menú (entrada, fondo postre)",
-                        "Múltiples almacenes",
-                        "Insumo",
-                        "Módulo de receta",
-                        "Compras",
-                        "Transferencia entre almacenes",
-                        "Inventario",
-                        "Kardex",
-                        "Mermas",
-                        "Facturas"
-                    ]
-                }
-            ]
+           
         };
     },
 

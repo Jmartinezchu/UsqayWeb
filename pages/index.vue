@@ -106,6 +106,10 @@ export default {
                   // localStorage.setItem("rutag", JSON.stringify('/co'));
                   location.href = `/${this.country_code}`;
                   break;
+                  case 'Chile':
+                  // localStorage.setItem("rutag", JSON.stringify('/co'));
+                  location.href = `/${this.country_code}`;
+                  break;
                 default:
                   let address = {
                     "road": "Avenida Independencia",

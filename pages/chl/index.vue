@@ -11,7 +11,7 @@
                         <h1 class="titleGeneral">
                             <b>Usqay</b>
                         </h1>
-                        <h3 class="titlePais">Perú {{ year }}</h3>
+                        <h3 class="titlePais">Chile {{ year }}</h3>
                         <p class="titletext">Controla, simplifica y <br> crece con Usqay.</p>
                         <br><br>
 
@@ -36,10 +36,10 @@
                 </div>
                 <div class="element3paises"></div>
                 <div class="col-md-5" style="margin-top:0; padding-top: 5px;">
+                    <img style="width:40px;" src="@/assets/img/iconos/Recurso 34@4x.png" alt="Usqay">
                     <img style="width:40px;" src="@/assets/img/iconos/Recurso 1@3x.png" alt="Usqay">
                     <img style="width:40px;" src="@/assets/img/iconos/Recurso 2@3x.png" alt="Usqay">
                     <img style="width:40px;" src="@/assets/img/iconos/Recurso 3@3x.png" alt="Usqay">
-                    <img style="width:40px;" src="@/assets/img/iconos/Recurso 34@4x.png" alt="Usqay">
                     <img style="width:40px;" src="@/assets/img/iconos/Recurso 4@3x.png" alt="Usqay">
                 </div>
             </div>

@@ -95,33 +95,7 @@
                 <!-- <div class="bg7">
                     l
                 </div> -->
-                <div class="row pricing-tables container" style="margin:auto">
-                    <div v-for="plan in planes" :key="plan.nombre" class="col-lg-4 col-md-4 col-xs-12">
-                        <div class="pricing-table">
-                            <div class="pricing-details positioncardprice">
-                                <h3 class="text-center titlecardprice">Versión <b>{{ plan.nombre }}</b></h3>
-                                <h4 style="color: var(--colorblue);font-weight: 800;font-size: 30px;">{{ plan.precioAnual }}
-                                    <span style="font-size: 15px;">/año</span>
-                                </h4>
-                                <h6 style="color: var(--colorblue);font-weight: 800;">{{ plan.precioMensual }}<span
-                                        style="font-size: 12px;">/mes</span>
-                                </h6>
-                                <p>{{ plan.comprobantes }}</p>
-                                <ul>
-                                    <li v-for="modulo in plan.modulos" :key="modulo">
-                                        <img src="@/assets/img/product/0.png" style="width: 20px;" alt="Usqay check">
-                                        {{ modulo }}
-                                    </li>
-                                </ul>
-                                <div>
-                                    <button class="btnPrice" @click="solicitarDemo('Restaurantes', plan.nombre)">
-                                        Contáctanos
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <EcuadorPrices/>
                 <!-- End Row -->
             </div>
         </section>
@@ -135,78 +109,6 @@ export default {
     data() {
         return {
             numberusqay: 943741512,
-            planes: [
-                {
-                    "nombre": "Lite",
-                    "precioAnual": "s/ 1,290.00",
-                    "precioMensual": "s/ 129.00",
-                    "comprobantes": "Hasta 500 comprobantes al mes",
-                    "modulos": [
-                        "Dashboard",
-                        "Hospedar",
-                        "Ventas",
-                        "Habitaciones",
-                        "Tarifas",
-                        "Caja",
-                        "Reportes",
-                        "Configuración",
-                        "Boletas",
-                        "Facturas",
-                        "Tickets de venta"
-                    ]
-                },
-                {
-                    "nombre": "Emprende",
-                    "precioAnual": "s/ 1,690.00",
-                    "precioMensual": "s/ 169.00",
-                    "comprobantes": "1000 comprobantes al mes",
-                    "modulos": [
-                        "Dashboard",
-                        "Hospedar",
-                        "Ventas",
-                        "Habitaciones",
-                        "Tarifas",
-                        "Caja",
-                        "Reservas",
-                        "Almacén",
-                        "Productos",
-                        "Servicios",
-                        "Kardex",
-                        "Reportes",
-                        "Configuración",
-                        "Boletas",
-                        "Facturas",
-                        "Tickets de venta",
-                        "Cloud para 1 dispositivo"
-                    ]
-                },
-                {
-                    "nombre": "Premium",
-                    "precioAnual": "s/ 2,490.00",
-                    "precioMensual": "s/ 249.00",
-                    "comprobantes": "Comprobantes ilimitados al mes",
-                    "modulos": [
-                        "Dashboard",
-                        "Hospedar",
-                        "Ventas",
-                        "Habitaciones",
-                        "Tarifas",
-                        "Múltiples cajas",
-                        "Reservas",
-                        "Múltiples almacenes",
-                        "Productos",
-                        "Servicios",
-                        "Kardex",
-                        "Movimiento de almacenes",
-                        "Reportes",
-                        "Configuración",
-                        "Boletas",
-                        "Facturas",
-                        "Tickets de venta",
-                        "Cloud para múltiples dispositivos"
-                    ]
-                }
-            ]
 
         };
     },

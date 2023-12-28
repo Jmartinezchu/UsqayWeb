@@ -1,94 +1,93 @@
 <template>
-    <div>
-
-        <div class="row" style=" height:200px">
-            <div class="col-md-4 animate__animated animate__backInDown" style="margin:auto">
-                <div class="text-center d-flex flex-column align-items-center animate__animated animate__backInLeft">
-                    <nuxt-link :to="`/${code}`"><img src="@/assets/img/logo.svg" alt="Usqay"
-                            style="height: 50px; width: 100%;"></nuxt-link>
-                    <br>
-                    <div style="display: flex;width: 30%; justify-content: space-evenly;">
-                        <a @click="RedWhatsappp()">
-                            <img class="imgredes" src="@/assets/img/iconos/Recurso 31@.png" alt="Redes Usqay"
-                                style="height: 30px;">
-                        </a>
-                        <a @click="RedInsta()"><img class="imgredes" src="@/assets/img/iconos/Recurso32@.png"
-                                alt="Redes Usqay" style="height: 30px;"></a>
-                        <a @click="RedFace()"><img class="imgredes" src="@/assets/img/iconos/Recurso33@.png"
-                                alt="Redes Usqay" style="height: 30px;"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 curved-container">
-                <div class="text-center animate__animated animate__backInLeft curved-content">
-                    <div class="row">
-                        <div style="transform: skewX(25deg)" class=" col-md-3">
-                            <h6 class="titlefooter colorfooter">
-                                Empresa
-                            </h6>
-                            <div>
-                                <p><nuxt-link :to="`/${this.code}/empresa#somos`" class="colorfooter">¿Quienes
-                                        Somos?</nuxt-link>
-                                </p>
-                                <p><nuxt-link :to="`/${this.code}/empresa#mision`" class="colorfooter">Mision</nuxt-link>
-                                </p>
-                                <p><nuxt-link :to="`/${this.code}/empresa#clientes`"
-                                        class="colorfooter">Clientes</nuxt-link>
-                                </p>
-                                <p><nuxt-link :to="`/${this.code}#testimonios`" class="colorfooter">Testimonios</nuxt-link>
-                                </p>
-                                <p><nuxt-link :to="`/${this.code}/empresa#teams`" class="colorfooter">Equipo</nuxt-link>
-                                </p>
-                            </div>
-
-                        </div>
-                        <div style="transform: skewX(25deg)" class=" col-md-3">
-                            <h6 class="titlefooter colorfooter">
-                                Productos
-                            </h6>
-                            <div>
-                                <p><nuxt-link :to="`/${this.code}/productos/restaurantes`"
-                                        class="colorfooter">Restaurante</nuxt-link></p>
-                                <p><nuxt-link :to="`/${this.code}/productos/pos`" class="colorfooter">Pos</nuxt-link></p>
-                                <p><nuxt-link :to="`/${this.code}/productos/hoteles`"
-                                        class="colorfooter">Hoteles</nuxt-link></p>
-                                <p><a class="colorfooter" @click="RedFact()">Facturación Electronica</a></p>
-                            </div>
-
-                        </div>
-                        <div style="transform: skewX(25deg)" class=" col-md-3">
-                            <h6 class="titlefooter colorfooter">
-                                Información
-                            </h6>
-                            <div>
-                                <p><nuxt-link :to="`/${this.code}/contacto`" class="colorfooter">Contacto</nuxt-link></p>
-                                <p><a class="colorfooter" @click="RedWhatsappp()">Administracion</a></p>
-                                <p><a class="colorfooter" @click="RedWhatsappp()">Area Comercial</a></p>
-                                <!-- <p><a class="colorfooter">Soporte</a></p> -->
-                            </div>
-
-                        </div>
-                        <div style="transform: skewX(25deg)" class=" col-md-3">
-                            <h6 style="opacity: 0;">
-                                Empresa
-                            </h6>
-                            <div>
-                                <p>
-                                    <a class="colorfooter" @click="RedFact()">
-                                        <img style="width:50px" src="/icon.png" alt="Usqqay"><br>Comprobantes</a>
-
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
+    <div class="row">
+        <div class="col-md-4 animate__animated animate__backInDown" style="margin:auto">
+            <div class="text-center d-flex flex-column align-items-center animate__animated animate__backInLeft">
+                <nuxt-link :to="`/${code}`"><img src="@/assets/img/logo.svg" alt="Usqay"
+                        style="height: 50px; width: 100%;"></nuxt-link>
+                <br>
+                <div style="display: flex;width: 30%; justify-content: space-evenly;">
+                    <a @click="RedWhatsappp()">
+                        <img class="imgredes" src="@/assets/img/iconos/Recurso 31@.png" alt="Redes Usqay"
+                            style="height: 30px;">
+                    </a>
+                    <a @click="RedInsta()"><img class="imgredes" src="@/assets/img/iconos/Recurso32@.png" alt="Redes Usqay"
+                            style="height: 30px;"></a>
+                    <a @click="RedFace()"><img class="imgredes" src="@/assets/img/iconos/Recurso33@.png" alt="Redes Usqay"
+                            style="height: 30px;"></a>
                 </div>
             </div>
         </div>
+        <div class="col-md-8 curved-container">
+            <div class="text-center animate__animated animate__backInLeft curved-content">
+                <div class="row">
+                    <div style="" class="texttrasform col-md-3">
+                        <h6 class="titlefooter colorfooter">
+                            Empresa
+                        </h6>
+                        <div>
+                            <p><nuxt-link :to="`/${this.code}/empresa#somos`" class="colorfooter">¿Quienes
+                                    Somos?</nuxt-link>
+                            </p>
+                            <p><nuxt-link :to="`/${this.code}/empresa#mision`" class="colorfooter">Mision</nuxt-link>
+                            </p>
+                            <p><nuxt-link :to="`/${this.code}/empresa#clientes`" class="colorfooter">Clientes</nuxt-link>
+                            </p>
+                            <p><nuxt-link :to="`/${this.code}#testimonios`" class="colorfooter">Testimonios</nuxt-link>
+                            </p>
+                            <p><nuxt-link :to="`/${this.code}/empresa#teams`" class="colorfooter">Equipo</nuxt-link>
+                            </p>
+                        </div>
 
+                    </div>
+                    <div style="" class="texttrasform col-md-3">
+                        <h6 class="titlefooter colorfooter">
+                            Productos
+                        </h6>
+                        <div>
+                            <p><nuxt-link :to="`/${this.code}/productos/restaurantes`"
+                                    class="colorfooter">Restaurante</nuxt-link></p>
+                            <p><nuxt-link :to="`/${this.code}/productos/pos`" class="colorfooter">Pos</nuxt-link></p>
+                            <p><nuxt-link :to="`/${this.code}/productos/hoteles`" class="colorfooter">Hoteles</nuxt-link>
+                            </p>
+                            <p><a class="colorfooter" @click="RedFact()">Facturación Electronica</a></p>
+                        </div>
 
+                    </div>
+                    <div style="" class="texttrasform col-md-3">
+                        <h6 class="titlefooter colorfooter">
+                            Información
+                        </h6>
+                        <div>
+                            <p><nuxt-link :to="`/${this.code}/contacto`" class="colorfooter">Contacto</nuxt-link></p>
+                            <p><a class="colorfooter" @click="RedWhatsappp()">Administracion</a></p>
+                            <p><a class="colorfooter" @click="RedWhatsappp()">Area Comercial</a></p>
+                            <!-- <p><a class="colorfooter">Soporte</a></p> -->
+                        </div>
+
+                    </div>
+                    <div style="cursor: pointer;" class="texttrasform col-md-3">
+                        <h6 style="opacity: 0;">
+                            Empresa
+                        </h6>
+                        <div style="margin-bottom:20px">
+                            <p>
+                                <a class="colorfooter" @click="RedFact()">
+                                    <img style="width:50px" src="/icon.png" alt="Usqqay"><br>Comprobantes</a>
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <v-footer style="width: 100%;text-align: center;">
+            <div style="width: 100%;text-align: center;height: 30px;">
+                &copy; {{ new Date().getFullYear() }} Usqay
+            </div>
+        </v-footer>
     </div>
     <!-- <div></div> -->
 </template>
@@ -99,7 +98,7 @@ export default {
     layout: 'home',
     data() {
         return {
-
+            fixed: false,
             rutaPage: {},
             code: null,
             socialMediaLinks: {
@@ -162,36 +161,6 @@ export default {
 };
 </script>
 
-<style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-
-.titlefooter {
-    font-size: 20px;
-    font-weight: bold
-}
-
-.colorfooter {
-    color: #fff
-}
-
-.imgredes {
-    cursor: pointer;
-}
-
-.curved-container {
-    background-color: #124c83;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    transform-origin: right !important;
-    transform: skewX(-25deg);
-    border-radius: 20px 0 0 0;
-    margin-right: -30px;
-    padding-right: 100px;
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
-}
-
-/* .curved-content {
-    transform: skewX(50deg);
-} */
+<style>
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap'); */
 </style>

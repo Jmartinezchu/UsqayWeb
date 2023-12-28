@@ -6,6 +6,39 @@
   --backgrey2: #f9f9f9;
 }
 
+.titlefooter {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.colorfooter {
+  color: #fff;
+}
+
+.imgredes {
+  cursor: pointer;
+}
+
+.texttrasform {
+  transform: skewX(25deg);
+}
+
+.curved-container {
+  background-color: #124c83;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transform-origin: right !important;
+  transform: skewX(-25deg);
+  border-radius: 20px 0 0 0;
+  margin-right: -30px;
+  padding-right: 100px;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+}
+
+/* .curved-content {
+    transform: skewX(50deg);
+} */
 .btnPrice {
   /* margin: auto; */
   background-color: var(--colorblue);
@@ -105,8 +138,8 @@
   border-radius: 50%;
   border: 5px solid var(--colorblue);
   position: relative;
-  top: -39px;
-  right: 34px;
+  top: -74px;
+  right: 37px;
 }
 
 .titlenumbercard {
@@ -191,6 +224,12 @@
 
 .space_componet {
   padding: 50px 0;
+}
+
+.somostext {
+  background-color: var(--colorblue);
+  -webkit-clip-path: polygon(0 2%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+          clip-path: polygon(0 2%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
 }
 
 .cardsinfo {

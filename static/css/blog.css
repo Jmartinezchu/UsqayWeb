@@ -1308,7 +1308,7 @@ button:focus {
 #pricing .pricing-table ul {
   /* padding-bottom: 28px; */
   padding-bottom: 28px;
-  height: 88vh;
+  /* height: 88vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;

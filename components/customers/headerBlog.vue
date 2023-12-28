@@ -1,13 +1,16 @@
 <template>
     <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar" style="background: #ffffff">
         <div class="newHeigth container">
-            <nuxt-link :to="`/${this.code}`" class="navbar-brand "><img src="@/assets/img/logo.svg" alt=""
+            <nuxt-link :to="`/${this.code}`" class="navbar-brand "><img src="@/assets/img/logo.svg" alt="Usqay Logo"
                     style="height: 50px; width: 100%;"></nuxt-link>
-            <!-- <nuxt-link to="/" class="navbar-brand "><img src="/img/Logo_b.png" alt=""
+            <!-- <nuxt-link to="/" class="navbar-brand "><img src="/img/Logo_b.png" alt="Usqay Sistema de negocios"
                     style="height: 50px; width: 100%;"></nuxt-link> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <v-icon class="text-white">menu</v-icon>
+                <!-- <v-icon class="text-white">-</v-icon> -->
+                <!-- <button class="text-white"> -->
+                <img class="text-white" style="width: 30px;" src="@/assets/img/iconos/menu.png" alt="Usqay Logo">
+                <!-- </button> -->
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto w-100" style="justify-content: space-evenly;">
@@ -61,14 +64,14 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <img v-if="this.code === 'pe'" style="width:40px;" src="@/assets/img/iconos/Recurso 1@3x.png"
-                            alt="Usqay Perú">
-                        <img v-if="this.code === 'ec'" style="width:40px;" src="@/assets/img/iconos/Recurso 2@3x.png"
-                            alt="Usqay Ecuador">
-                        <img v-if="this.code === 'co'" style="width:40px;" src="@/assets/img/iconos/Recurso 3@3x.png"
-                            alt="Usqay Colombia">
-                        <img v-if="this.code === 'cl'" style="width:40px;" src="@/assets/img/iconos/Recurso 34@4x.png"
-                            alt="Usqay Perú">
+                        <img class="nav-link page-scroll" v-if="this.code === 'pe'" style="width:40px;"
+                            src="@/assets/img/iconos/Recurso 1@3x.png" alt="Usqay Perú">
+                        <img class="nav-link page-scroll" v-if="this.code === 'ec'" style="width:40px;"
+                            src="@/assets/img/iconos/Recurso 2@3x.png" alt="Usqay Ecuador">
+                        <img class="nav-link page-scroll" v-if="this.code === 'co'" style="width:40px;"
+                            src="@/assets/img/iconos/Recurso 3@3x.png" alt="Usqay Colombia">
+                        <img class="nav-link page-scroll" v-if="this.code === 'cl'" style="width:40px;"
+                            src="@/assets/img/iconos/Recurso 34@4x.png" alt="Usqay Perú">
                     </li>
                 </ul>
             </div>

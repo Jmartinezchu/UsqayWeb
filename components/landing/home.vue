@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-7">
                 <div>
-                    <img src="" alt="">
+                    <img src="" alt="Usqay Sistema de negocios">
                 </div>
             </div>
             <div class="col-md-5" style="display: flex; flex-direction: column; justify-content: center">

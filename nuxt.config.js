@@ -1,5 +1,4 @@
 import colors from 'vuetify/es5/util/colors'
-
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -16,6 +15,10 @@ export default {
       {
         rel: 'stylesheet',
         href: '/css/style.css',
+      },
+      {
+        rel: 'stylesheet',
+        href: '/css/responsive.css',
       },
       // {
       //   rel: 'stylesheet',
@@ -39,6 +42,7 @@ export default {
     // { src: '~/plugins/aos.js', ssr: false },
     // { src: '~/plugins/weetalert2.js' },
     { src: '~/plugins/wow.js', ssr: false },
+    // { src: '~/plugins/vuetify.js' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

@@ -1,38 +1,41 @@
 <template>
     <div class="row bg6">
-        <div class="col-md-3"></div>
-        <div class="col-md-9">
+        <div class="col-md-2 col-1"></div>
+        <div class="col-md-9 col-10">
             <div class="row ">
-                <div class="col-md-10 "
+                <div class="col-md-11 "
                     style=" background: #fff; border-radius: 30px; box-shadow:-1px 4px 12px 0px rgba(51, 49, 51, 1) ">
                     <div class="cuadroblue"></div>
                     <div class="row">
                         <div class="col-md-8">
                             <v-form v-model="valid">
                                 <v-row class="">
-                                    <v-col md="10" class="orderform">
+                                    <div class="col-md-10 orderform">
                                         <v-text-field v-model="cliente.name" :rules="nameRules" label="Nombre completo"
                                             required></v-text-field>
-                                    </v-col>
+                                    </div>
+                                    <!-- <v-col md="10" class="orderform">
+                                        
+                                    </v-col> -->
                                     <!-- <br> -->
-                                    <v-col md="10" class="orderform">
+                                    <div class="col-md-10 orderform">
                                         <v-text-field v-model="cliente.business" :rules="nameRules"
                                             label="Nombre del negocio" required></v-text-field>
-                                    </v-col>
-                                    <v-col md="10" class="orderform">
+                                    </div>
+                                    <div class="col-md-10 orderform">
                                         <v-text-field v-model="cliente.number" :rules="nameRules" label="Tel. o Celular"
                                             required></v-text-field>
-                                    </v-col>
+                                    </div>
                                 </v-row>
                                 <v-row>
-                                    <v-col md="10" class="orderform">
+                                    <div class="col-md-10 orderform">
                                         <v-text-field v-model="cliente.email" :rules="emailRules" label="E-mail"
                                             required></v-text-field>
-                                    </v-col>
-                                    <v-col md="10" class="orderform">
+                                    </div>
+                                    <div class="col-md-10 orderform">
                                         <v-text-field v-model="cliente.ciudad" :rules="nameRules" label="Ciudad"
                                             required></v-text-field>
-                                    </v-col>
+                                    </div>
                                 </v-row>
 
                             </v-form>

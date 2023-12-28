@@ -1,6 +1,6 @@
 <template>
-    <div class="wow fadeIn space_componet " data-wow-duration="2s" data-wow-delay="0.5s">
-        <div class="container">
+    <div class="wow fadeIn space_componet2 " data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="container-fluid">
             <h3 class="animate__animated animate__fadeInRight subTitleProduct" style="font-size:35px">¿Qué nos
                 diferencia de la competencia?
             </h3>
@@ -13,7 +13,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid centerflexcol">
+        <div class="centerflexcol">
             <div class="row">
                 <div class="circleRecom">
                     <img src="@/assets/img/product/1.png" alt="Usqay nos eligen">

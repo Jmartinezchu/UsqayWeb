@@ -6,10 +6,11 @@
         <CustomersHeaderBlog></CustomersHeaderBlog>
         <Nuxt />
         <CustomersFooterBlog></CustomersfooterBlog>
+
         <!-- </div> -->
         <!-- </v-container> -->
         <a @click="scrollToTop" class="back-to-top">
-            <img style="width: 50px;" src="@/assets/img/component/flecha.png" alt="">
+            <img style="width: 50px;" src="@/assets/img/component/flecha.png" alt="Usqay Sistema de negocios">
         </a>
     </v-main>
     <!-- </v-app> -->

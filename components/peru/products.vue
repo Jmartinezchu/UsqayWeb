@@ -7,11 +7,13 @@
         <div class="animate__animated animate__fadeInLeft"
             style="width: 300px; margin: auto; height: 5px;background: var(--colorusqay);"></div>
         <br>
-        <div class="row container-fluid">
+        <div class="row container-fluid centerflexrow">
             <div class="col-md-8 col-lg-6">
-                <div class="row" style="margin: 0 auto; width:500px;height: 300px; text-align: center">
-                    <img class="col-md-6 img_prod" src="@/assets/img/imagenes/restaurante.jpg" alt="Usqay Restaurante">
-                    <div class="col-md-6">
+                <div class="row colrespProducto"
+                    style="margin: 0 auto; /*width:500px;*//*height: 300px;,*/ text-align: center">
+                    <img style="width: 250px; height:300px; margin:auto" class="  col-md-6 img_prod"
+                        src="@/assets/img/imagenes/restaurante.png" alt="Usqay Restaurante">
+                    <div class="  col-md-6">
                         <h4 style="color: var(--colorusqay);margin-bottom: -5px;position: relative; z-index: 3;">Usqay
                         </h4>
                         <h3
@@ -35,9 +37,11 @@
                 </div>
             </div>
             <div class="col-md-8 col-lg-6">
-                <div class="row" style="margin: 0 auto; width:500px;height: 300px; text-align: center">
-                    <img class="col-md-6 img_prod" src="@/assets/img/imagenes/pos.jpg" alt="Usqay Restaurante">
-                    <div class="col-md-6">
+                <div class="row colrespProducto"
+                    style="margin: 0 auto; /*width:500px;*//*height: 300px;,*/ text-align: center">
+                    <img style="width: 250px; height:300px; margin:auto" class="  col-md-6 img_prod"
+                        src="@/assets/img/imagenes/pos.png" alt="Usqay Restaurante">
+                    <div class=" col-md-6">
                         <h4 style="color: var(--colorusqay);margin-bottom: -5px;position: relative; z-index: 3;">Usqay
                         </h4>
                         <h3
@@ -62,11 +66,13 @@
                 </div>
             </div>
         </div>
-        <div class="row container-fluid">
-            <div class="col-md-12 col-lg-12">
-                <div class="row" style="margin: 0 auto; width:500px;height: 300px; text-align: center">
-                    <img class="col-md-6 img_prod" src="@/assets/img/imagenes/hoteles.jpg" alt="Usqay Restaurante">
-                    <div class="col-md-6" style="box-shadow: rgb(51, 49, 51) 9px 9px 20px -10px;border-radius:0 0 50px 0;">
+        <div class="row container-fluid centerflexcol">
+            <div class="col-md-8 col-lg-6">
+                <div class="row colrespProducto"
+                    style="margin: 0 auto; /*width:500px;*//*height: 300px;,*/ text-align: center">
+                    <img style="width: 250px; height:300px; margin:auto" class=" col-md-6 img_prod"
+                        src="@/assets/img/imagenes/hoteles.png" alt="Usqay Restaurante">
+                    <div class=" col-md-6">
                         <h4 style="color: var(--colorusqay);margin-bottom: -5px;position: relative; z-index: 3;">Usqay
                         </h4>
                         <h3

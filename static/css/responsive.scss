@@ -1,0 +1,70 @@
+@media screen and (max-width:768px) {
+
+    .bg1 {
+        position: relative;
+        top: 50px;
+        .titleGeneral{
+            font-size:4.5em;
+        }
+        .titlePais{
+            font-size:2em;
+        }
+        .titletext{
+            font-size:1.5em
+        }
+        // button{
+        //     margin-bottom: 30px;
+        // }
+    }
+    .element1paises{
+        height: 5px;
+    }
+    .element2paises{
+        height: auto
+    }
+    .element3paises{
+        display: none;
+    }
+    .row .col-md-5{
+        text-align: center;
+    }
+    .cardsinfo{
+        flex-direction: column;
+    }
+    .cardindiv{
+        width: 95%;
+    }
+    .circleElige{
+        width: 100px;
+        height: 90px;
+    }
+    .titleGeneral{
+        font-size:4.5em;
+    }
+    .titlepage{
+        margin-top: 30px;
+        font-size:2.5em !important;
+    }
+    .titleProduct{
+        margin-top: 30px;
+        font-size:2.5em !important;
+    }
+    .space_componet2 {
+        padding: 80px 0 0 !important;
+    }
+    .somostext{
+        clip-path: polygon(100% 0, 100% 98%, 50% 100%, 0 98%, 0 0);
+    }
+   
+}
+@media screen and (max-width: 450px){
+    .cuadroblue{
+        display:none
+    }
+    .curved-container {
+        transform: skewX(0deg);
+    }
+    .texttrasform{
+        transform: skewX(0deg);
+    }
+}

@@ -1,7 +1,7 @@
 <template>
   <div
     style="height:90vh ;margin: auto; display: flex; flex-direction: column; align-items: center;justify-content: center">
-    <img class="animate__animated animate__backInDown" src="@/assets/img/logo.svg" alt=""
+    <img class="animate__animated animate__backInDown" src="@/assets/img/logo.svg" alt="Usqay Sistema de negocios"
       style="height: 50px; width: 100%;">
     <br><br>
     <div class="animate__animated animate__bounceIn">
@@ -106,7 +106,7 @@ export default {
                   // localStorage.setItem("rutag", JSON.stringify('/co'));
                   location.href = `/${this.country_code}`;
                   break;
-                  case 'Chile':
+                case 'Chile':
                   // localStorage.setItem("rutag", JSON.stringify('/co'));
                   location.href = `/${this.country_code}`;
                   break;

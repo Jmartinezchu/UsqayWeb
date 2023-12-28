@@ -1,6 +1,6 @@
 <template>
     <div class="col-md-6" style="margin:auto">
-        <div class="wow fadeIn space_componet " data-wow-duration="2s" data-wow-delay="0.5s">
+        <div class="wow fadeIn " data-wow-duration="2s" data-wow-delay="0.5s">
             <div class="container">
                 <h3 class="animate__animated animate__fadeInRight subTitleProduct" style="font-size:35px">
                     ¿Por qué nos eligen?
